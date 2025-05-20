@@ -45,6 +45,18 @@ Each SQL query corresponds to a business scenario that tests relational data han
 - Apply formula: `(total_transactions / tenure) * 12 * avg_profit_per_transaction`
 
 ---
+## Data Preparation & Setup
+Before solving the questions, I extracted the necessary tables from the provided SQL script file using the following process:
+
+- Loaded the `.sql` dump file in MySQL Workbench
+- Identified and isolated key tables: `users_customuser`, `savings_savingsaccount`, `plans_plan`, and `withdrawals_withdrawal`
+- Executed the script to create tables and populate with sample data
+- Verified table structures and relationships
+- Explored column types and constraints to understand the data model
+
+This initial setup ensured a clean environment to test and optimize my queries efficiently.
+
+---
 
 ## Challenges & Resolutions
 
